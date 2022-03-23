@@ -1,0 +1,39 @@
+GET  http://localhost:3000/posts/
+
+
+###
+
+POST http://localhost:3000/posts/
+Content-Type: application/json
+
+{
+    "name":"indresh",
+    "email":"satya@gmail.com",
+    "phoneno":"578741556"
+}
+
+###
+
+GET http://localhost:3000/posts/5fc0bae3902c8f27b4392a71
+
+
+###
+
+DELETE http://localhost:3000/posts/5fc0bae3902c8f27b4392a71
+
+###
+
+PATCH http://localhost:3000/posts/5fc0a9e3dfdf8a1c80086fcd
+Content-Type: application/json
+
+{
+    "name":"sachin",
+    "email":"satyammishra123456@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/posts/
+
+
+
